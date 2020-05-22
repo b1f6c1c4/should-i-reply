@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name":    "Should I reply?",
+    "name":    "Should I reply? - Telegram version",
     "version": "0.1",
     "content_scripts": [{
-        "matches": ["*://*.facebook.com/*"],
+        "matches": ["*://web.telegram.org/#/im*"],
         "js":      ["content.js"]
     }],
     "browser_action": {
