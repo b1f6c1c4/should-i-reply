@@ -3,8 +3,9 @@
     "name":    "Should I reply? - Telegram version",
     "version": "0.1",
     "content_scripts": [{
-        "matches": ["*://web.telegram.org/#/im*"],
-        "js":      ["content.js"]
+        "matches": ["*://web.telegram.org/*"],
+        "js":      ["content.js"],
+        "run_at": "document_start"
     }],
     "browser_action": {
         "default_icon": "icon.png",
