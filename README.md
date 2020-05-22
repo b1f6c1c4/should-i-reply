@@ -1,4 +1,4 @@
-## Should I reply? (a.k.a He is just not that into you)
+## Should I reply? (a.k.a They are just not that into you)
 This is a toy program made mostly for fun and for whoever still believes in the power of playing hard-to-get in the dating scene. It does stats for your chatting history and gives you suggestions of when to reply.
 
 Works for fb chats at https://www.facebook.com/messages/
